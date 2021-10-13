@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>How Lucky</title>
+  <link rel="icon" href="favicon2.ico">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <div class="result">
+    <h1>Refresh page to find out how lucky you are.</h1>
+    <p>
+      Restart to try another name.
+    </p>
+  </div>
+  <div class="set">
+    <p class="keyTitle">PRESS KEY TO CELEBRATE WITH DRUM ROLL!</p>
+    <button class="z drum">z</button>
+    <button class="x drum">x</button>
+    <button class="c drum">c</button>
+  </div>
+  <footer>
+      <p id="name"></p>
+  </footer>
+  <script src="index.js"></script>
+  <script type="text/javascript">
+    const currenDate = new Date();
+    document.getElementById("name").innerHTML = ("© " + currenDate.getFullYear() + " Evaldas Pranckevicius");
+  </script>
+</body>
+</html>
